@@ -40,7 +40,17 @@ aside {
 }
 
 .resize {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.resize2 {
+    width: 75%;
+    height: auto;
+}
+
+.resize3 {
+    width: 50%;
     height: auto;
 }
 
