@@ -23,7 +23,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
+header nav a {
     color: white;
     text-decoration: none;
 }
@@ -43,3 +43,12 @@ aside {
     max-width: 100%;
     height: auto;
 }
+
+section a img {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 20px;
+  }
+
