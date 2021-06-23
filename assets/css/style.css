@@ -80,3 +80,54 @@ section h2 {
     color: white;
 }
 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+body,
+main,
+nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+body,
+main,
+nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+body,
+main,
+nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}   
+    
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+body,
+ main,
+nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+    
+ }
