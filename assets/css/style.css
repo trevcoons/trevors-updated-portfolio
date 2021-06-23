@@ -33,20 +33,23 @@ header nav a {
     text-decoration: none;
 }
 
-aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2a2b7c;
+article p {
+    max-width: 30%;
+    margin: 30px;
+    float: left;
+}
+
+article {
+    justify-content: space-between;
+    display: flex;
 }
 
 .resize {
-    width: 100%;
-    height: auto;
+    max-width: 500px;
+    max-height: 500px;
+    margin-right: 20px;
+    border: 20px solid #2a2b7c;
+    min-width: none;
 }
 
 .resize2 {
